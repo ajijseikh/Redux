@@ -12,7 +12,7 @@ export function accountReducer(state = { amount: 1 }, action) {
     case getAccUserFulFilled:
       return { amount: action.payload, pending: false };
     case getAccUserRejected:
-      return { ...state, error: action.error, pending: false };
+      return { ...state, error: action.error.message, pending: false };
     case getAccUserPending:
       return { ...state, pending: true };
 
