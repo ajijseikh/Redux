@@ -1,0 +1,18 @@
+.App{
+  background-color: rgb(65, 62, 62);
+}
+
+.container {
+  text-align: center;
+  padding: 2px 16px;
+  border: 1px solid #aaa;
+}
+
+
+h4{
+  color:rgb(239, 15, 15);
+}
+
+h3{
+  color: rgba(255, 255, 0, 0.944);
+}
